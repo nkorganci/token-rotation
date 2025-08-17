@@ -1,0 +1,23 @@
+# Ignore tfstate and plan outputs
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Local terraform directories
+.terraform/
+
+# Variable files
+*.tfvars
+*.tfvars.json
+
+# CLI config
+.terraformrc
+terraform.rc
+
+# Backup files
+*~
+*.bak
+
+# Editor files
+.vscode/
+.idea/
